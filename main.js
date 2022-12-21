@@ -15,7 +15,7 @@ function airtableSubmit() {
       return;
     }
     console.log(record.getId());
-    window.location.href = '/enter-email-now?address=' +ethereum.selectedAddress +'&recordID='+record.getId()
+    document.location.href = '/enter-email-now?address=' +ethereum.selectedAddress +'&recordID='+record.getId()
   });
   }
 
